@@ -1,7 +1,7 @@
-baseURL = 'https://example.com/'
-languageCode = 'en-us'
+baseURL = 'https://valenvilardav-blog.pages.dev/'
+defaultContentLanguage = "es"
 title = "valenvilardav"
-copyright = 'Valentin Vilar Davila' # Used in the footer copyright mention.
+copyright = 'Valentin Vilar Davila'
 enableRobotsTXT = true
 
 [Languages]
@@ -16,8 +16,6 @@ enableRobotsTXT = true
     weight = 2
     languageCode = "en-us"   
     contentDir = "content/en"
-
-defaultContentLanguage = "es"
 
 [module]
   [[module.imports]]
