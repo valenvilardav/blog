@@ -1,21 +1,22 @@
 baseURL = 'https://valenvilardav.blog/'
-defaultContentLanguage = "es"
+defaultContentLanguage = "en"
 title = "valenvilardav"
 copyright = 'Valentin Vilar Davila'
 enableRobotsTXT = true
 
 [Languages]
-  [Languages.es]
-    languageName = "Español"
-    weight = 1
-    languageCode = "es"   
-    contentDir = "content/es"
-
   [Languages.en]
     languageName = "English"
-    weight = 2
+    weight = 1
     languageCode = "en-us"   
     contentDir = "content/en"
+
+  [Languages.es]
+    languageName = "Español"
+    weight = 2
+    languageCode = "es"   
+    contentDir = "content/es"
+  
 
 [module]
   [[module.imports]]
